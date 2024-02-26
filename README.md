@@ -7,9 +7,12 @@ The project's scope involves the implementation of an application designed to si
 
 ### Technologies and Tools Used:
 Frontend Development:
-Development Environment: Visual Studio Code
-Essential VS Code Extensions: ESLint, Prettier
-Framework: Angular
+
+Development Environment: Visual Studio Code;
+
+Essential VS Code Extensions: ESLint, Prettier;
+
+Framework: Angular;
 
 Documentation:
 This project aimed to create an application that streamlines the process of generating surveys and consent requests. My primary focus was on frontend development, where I worked intensively with Angular to create a user interface that was both simple and easy to navigate. Unfortunately, due to the limited time frame, I was unable to add any visual enhancements to the interface, but I dedicated significant effort to ensuring its functionality.
