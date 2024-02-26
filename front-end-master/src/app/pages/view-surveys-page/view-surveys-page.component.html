@@ -1,0 +1,37 @@
+<header>
+  <img class="logo" src="\assets\images\p1.png" alt="logo" >
+<div class="topnav">
+<a  href="/admin">Add Survey</a>
+<a class="active" href="/view-surveys">View Surveys</a>
+<a routerLink="/welcome">Log out</a>
+</div>
+</header>
+<main>
+  <div style="overflow-x:auto;">
+<table>
+  <tr>
+
+    <th>Name</th>
+    <th>Description</th>
+    <th>OpeningTime</th>
+    <th>ClosingTime</th>
+    <th>CreatedBy</th>
+    <th>ModifiedBy</th>
+    <th>Button</th>
+  </tr>
+  <tr *ngFor="let data of survey">
+
+    <td>{{data.name}}</td>
+    <td>{{data.description}}</td>
+    <td>{{data.opening_Time}}</td>
+    <td>{{data.closing_Time}}</td>
+    <td>{{data.created_By}}</td>
+    <td>{{data.modified_By}}</td>
+    <td><button type="submit">Edit</button>
+      <button (click)="deleteSurvey(data.name)" type="button">Delete</button></td>
+  </tr>
+
+</table> </div><router-outlet></router-outlet></main>
+<footer>
+  <app-footer-page></app-footer-page>
+</footer>

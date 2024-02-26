@@ -1,0 +1,38 @@
+<div class="container" id="container">
+	<div class="form-container sign-in-container">
+
+		<form #form="ngForm"
+    [formGroup]= "formGroupLogin"
+    (ngSubmit)="onSubmitForm()">
+      <img id="back" src="assets/images/back.png" routerLink="/welcome" routerLinkActive="active">
+			<h1>Welcome back! Glad to see you, Again!</h1>
+			<input  formControlName="email"
+      id="email" name="email" type="email" placeholder="Email" />
+      <div class="buttonIn">
+        <input  formControlName="password"
+        id="password" [type]=" showPassword ? 'text' : 'password' " placeholder="Password">
+        <button type="button" (click)='showHidePassword()'> {{ showPassword ? 'Hide' : 'Show' }}</button>
+      </div>
+			<a id="a1">Forgot Password?</a>
+      <br>
+			<button type="submit" id="login-button" class="butt" routerLinkActive="active">Login</button>
+      <p>Don’t have an account? <a href="http://localhost:4200/register" id="register-button">Register Now</a></p>
+
+
+      <div class="alert alert-notice" style="color: red; font-size: large; font-weight: bold;">{{errorLogin}}</div>
+
+
+		</form>
+
+
+
+
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+        <img src="assets/images/p1.png">
+			</div>
+		</div>
+	</div>
+</div>

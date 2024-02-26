@@ -1,0 +1,70 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+  margin: 0px;
+  padding: 0;
+  background-color: #ffffff;
+  position: fixed;
+  height: 20%;
+  overflow: auto;
+  margin-left: 0.8%;
+  margin-top:4%
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+}
+
+input[type=text], select, textarea {
+  width: 65%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.search-container button {
+  padding: 6px;
+  background:rgb(206, 205, 205);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: 4%;
+}
+
+.search-container button:hover {
+  background:rgb(197, 197, 197);
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  width:65%;
+  margin-left: 4%;
+}
+
+.search-container{
+  position: fixed;
+}
+
+a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+a.active {
+  background-color:  rgb(231, 231, 231);
+  color: black;
+}
+
+a:hover:not(.active) {
+  background-color: rgb(231, 231, 231);
+  color:black;
+}

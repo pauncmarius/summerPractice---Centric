@@ -1,0 +1,6 @@
+<a href="/home"><img class="logo" src="\assets\images\p1.png" alt="logo" ></a>
+<div class="topnav">
+  <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</a>
+  <a id="test" routerLink="/profile" routerLinkActive="active" >Profile</a>
+  <a (click)="logOut()" routerLink="/welcome">Log out</a>
+</div>

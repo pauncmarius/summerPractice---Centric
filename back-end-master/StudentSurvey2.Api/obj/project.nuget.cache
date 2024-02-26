@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nrLT0WVCdtnkMMt1g63ACD2FTzkEZ0iBJ8QV/tTg390VkU1EcOexGhzFItPQKmumW4X2UwL2MYXA4OUQ9PLxOA==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\StudentSurvey\\StudentSurvey\\StudentSurvey2.Api\\StudentSurvey2.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\albertbvi12\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\albertbvi12\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

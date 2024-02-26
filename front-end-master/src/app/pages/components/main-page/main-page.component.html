@@ -1,0 +1,19 @@
+<div class="search-container">
+  <form >
+    <input type="text" placeholder="Search.." name="search">
+    <button type="search">Search</button>
+  </form>
+</div>
+  <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>Surveys:</th>
+        <th>Description</th>
+      </tr>
+        <tr *ngFor="let survey of survey">
+          <td><a >{{survey.name}}</a></td>
+          <td>{{survey.description}}</td>
+        </tr>
+    </table>
+  </div>
+<router-outlet></router-outlet>

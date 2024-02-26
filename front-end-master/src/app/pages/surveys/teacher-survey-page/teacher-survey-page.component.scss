@@ -1,0 +1,79 @@
+label {
+  padding: 2px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: rgb(197, 197, 197);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #b8b8b8;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+  padding-bottom: 15%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.row{
+  padding: 5px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.search-container button {
+  padding: 6px;
+  margin-left: 10px;
+  background:rgb(206, 205, 205);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background:rgb(197, 197, 197);
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  padding-right: 51px;
+}

@@ -1,0 +1,60 @@
+<header>
+  <img class="logo" src="\assets\images\p1.png" alt="logo" >
+<div class="topnav">
+<a class="active" href="/admin">Add Survey</a>
+<a href="/view-surveys">View Surveys</a>
+<a routerLink="/welcome">Log out</a>
+</div>
+</header>
+<main>
+  <form #form="ngForm"
+  [formGroup]="addSurveyGroup"
+  (ngSubmit)="onSubmitFormSurvey(form.value)">
+
+
+
+      <br>
+        <input formControlName="idTopic" id="idTopic" type="text" placeholder="IdTopic">
+
+        <br>
+
+      <br>
+        <input formControlName="name" id="name"  type="text" placeholder="Name">
+
+
+        <br>
+
+      <br>
+        <input formControlName="description" id="description" type="text" placeholder="Description">
+
+
+        <br>
+
+      <br>
+        <input formControlName="opening_Time" id="opening_Time" type="datetime-local" placeholder="Opening Time" >
+
+
+        <br>
+
+      <br>
+        <input formControlName="closing_Time" id="closing_Time" type="datetime-local"placeholder=" Closing Time" >
+
+        <br>
+
+      <br>
+        <input formControlName="created_By" id="created_By"  type="text" placeholder="Created By">
+
+        <br>
+
+      <br>
+        <input formControlName="modified_By" id="modified_By" type="text" placeholder="Modified By">
+
+
+      <button type="submit" class="btn btn-primary"> Add Survey </button>
+
+  </form>
+<router-outlet></router-outlet>
+</main>
+<footer>
+  <app-footer-page></app-footer-page>
+</footer>

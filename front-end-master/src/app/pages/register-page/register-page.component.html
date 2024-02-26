@@ -1,0 +1,37 @@
+<div class="container" id="container">
+	<div class="form-container register-container">
+
+		<form #form="ngForm"
+    [formGroup]="FormGroupRegister"
+    (ngSubmit)="onSubmitFormRegister(form.value)">
+
+			<h1>Hello! Register to get started!</h1>
+      <br>
+      <input formControlName="username"
+       id = "username" name="username" type="text" placeholder="Username" />
+      <input formControlName="email"
+       id="email" name="email" type="email" placeholder="Email" />
+      <input formControlName="hashed_password"
+      id="password" name="password" type="password" placeholder="Password" />
+      <input formControlName="firstName"
+       id = "firstName" name="FirstName" type="text" placeholder="First name">
+      <input formControlName="lastName"
+       id = "lastName" name="LastName" type="text" placeholder="Last name">
+      <input formControlName="phoneNumber"
+       id = "phoneNumber" name="PhoneNumber" type="text" placeholder="Phone Number">
+
+      <br>
+			<button type="submit">Register</button>
+      <p>Already have an account? <a routerLink="/login">Login Now</a></p>
+		</form>
+    <!--img id="back" src="assets/images/back.png" routerLink="/welcome" routerLinkActive="active"!-->
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<img src="assets/images/p1.png">
+			</div>
+		</div>
+	</div>
+</div>
+
