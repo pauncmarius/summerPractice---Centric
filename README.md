@@ -46,4 +46,4 @@ Beyond frontend work, I actively contributed to **backend development and REST A
 ![Survey App Screenshot 2](https://github.com/user-attachments/assets/f0f42350-5bd6-4ee4-841d-5d25dcc7ad2f)
 
 ## Context
-Developed during a Summer Internship at **Centric IT Solutions Romania** (07/2022 – 08/2022).
+Developed during a Summer Practice at **Centric IT Solutions Romania** (07/2022 – 08/2022).
