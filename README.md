@@ -1,27 +1,49 @@
-# summerPractice-Centric
+# Summer Practice – Centric Summer Practice Project
 
-## Project Presentation
+## Overview
+A full-stack web application built during a summer practice at **Centric IT Solutions Romania**, designed to simplify the creation and completion of surveys and consent request forms. The application follows **onion architecture** principles, with a clean separation between frontend and backend layers.
 
-### Scope:
-The project's scope involves the implementation of an application designed to simplify the creation and completion of surveys or consent requests. Key features include a web service using onion architecture, a modern and user-friendly layout, a landing screen for user login and password retrieval, and the ability to perform actions such as adding, editing, and deleting forms. Additionally, the application incorporates two levels of authorization: administrators and students.
+## Scope
+The platform streamlines survey and consent request management for two types of users — **administrators** and **students** — each with role-based access. Core functionality includes:
 
-### Technologies and Tools Used:
-Frontend Development:
+- Landing screen with user login and password retrieval
+- Creating, editing, and deleting forms (full CRUD operations)
+- Two-tier authorization: Administrator / Student
+- A modern, user-friendly interface
 
-Development Environment: Visual Studio Code;
+## Tech Stack
 
-Essential VS Code Extensions: ESLint, Prettier, NodeJS;
+**Frontend**
+- Angular
+- TypeScript
+- HTML / SCSS
+- ESLint & Prettier (code quality and formatting)
 
-Framework: Angular;
+**Backend**
+- .NET (C#)
+- RESTful APIs
+- Onion Architecture
+- MySQL (database)
 
-Documentation:
-This project aimed to create an application that streamlines the process of generating surveys and consent requests. My primary focus was on frontend development, where I worked intensively with Angular to create a user interface that was both simple and easy to navigate. Unfortunately, due to the limited time frame, I was unable to add any visual enhancements to the interface, but I dedicated significant effort to ensuring its functionality.
+**Tools**
+- Visual Studio Code
+- Git / GitHub
 
-Throughout the project, I also contributed to other aspects wherever possible, including backend development and API implementation. Collaboration and flexibility were crucial to the project's success, and I eagerly took on tasks outside my primary role to support the team.
+## Features
+- Role-based access control (Admin / Student)
+- Full CRUD functionality for surveys and consent forms
+- Onion architecture for maintainable, decoupled backend logic
+- Clean, intuitive UI built with Angular
+- Secure login with password retrieval flow
 
-### Preview:
-![image](https://github.com/user-attachments/assets/8290419a-03cd-4d08-96e3-f917bf9f6c9a)
-![image](https://github.com/user-attachments/assets/f0f42350-5bd6-4ee4-841d-5d25dcc7ad2f)
+## My Contribution
+My primary focus was **frontend development** with Angular, where I built a simple and easy-to-navigate user interface. Due to the limited practice timeframe, the priority was placed on functionality over visual polish.
 
+Beyond frontend work, I actively contributed to **backend development and REST API implementation**, collaborating closely with the team on cross-functional tasks — including debugging and testing across both layers of the application. Collaboration and flexibility were key to the project's success, and I regularly took on tasks outside my primary role to support the team.
 
+## Preview
+![Survey App Screenshot 1](https://github.com/user-attachments/assets/8290419a-03cd-4d08-96e3-f917bf9f6c9a)
+![Survey App Screenshot 2](https://github.com/user-attachments/assets/f0f42350-5bd6-4ee4-841d-5d25dcc7ad2f)
 
+## Context
+Developed during a Summer Internship at **Centric IT Solutions Romania** (07/2022 – 08/2022).
